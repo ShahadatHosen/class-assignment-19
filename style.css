@@ -1,0 +1,518 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container{
+    width: 1370px; 
+    margin: auto;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.maxwidh {
+    width: 1251px; 
+    margin: auto;
+}
+/* main menu section */
+.hedder{
+
+}
+.top-hedder{
+    background-image: url(https://i.postimg.cc/kG8RtDVw/ia-200000019.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.mainhedder{
+
+
+    padding: 0px 26px;
+    opacity: 0.8;
+    background: rgb(0, 0, 0);
+}
+
+/* logo section */
+.hedderlogo{
+
+    width: 16%;
+
+}
+
+.hedderlogo img{
+
+}
+
+/* manu section */
+.heddermenu{
+    width: 80%;
+    padding: 0px 27px 0px 0px;
+}
+.heddermenu ul{
+    text-align: right;
+}
+.heddermenu ul li {
+    display: inline-block;
+}
+.heddermenu ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 17px;
+    color: white;
+    margin-left: -4px;
+    position: relative; 
+   
+}
+.heddermenu ul li:hover > a{
+    color:#c68223;
+}
+
+/* border section */
+
+.heddermenu ul li a::before{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #885e27;
+    position: absolute;
+    left: 7px;
+    bottom: 0;
+    transition: .5s;
+    transform: scale(0);
+
+
+}
+
+.heddermenu ul li a:hover::before{
+    width: 80%;
+    transform: scale(1);
+}
+
+.heddermenu ul li ul li a:hover::before{
+    width: 0%;
+    
+}
+
+
+
+
+/* drop dhon section */
+
+.heddermenu ul li{
+    position: relative; 
+}
+
+
+
+.heddermenu ul li ul{
+
+    position: absolute;
+    left: -7px;
+    top: 100%;
+    color: aliceblue;
+    width: 229px;
+
+
+    background: white;
+}
+.heddermenu ul li ul li{
+    display: block;
+}
+.heddermenu ul li ul li a{
+    display: block;
+    margin-left: 0px;
+    text-align: center;
+    color: black;
+}
+
+.heddermenu ul li ul li a:hover{
+    background: #95a5a69c;
+}
+
+/* hover section */ 
+
+.heddermenu ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s; 
+    z-index: 9;
+}
+
+.heddermenu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+/* bannar section */
+
+
+.bannarimg{
+    background-image: url(https://i.postimg.cc/kG8RtDVw/ia-200000019.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 240px 0px;
+    position: relative;
+    z-index: -2;
+}
+
+.bannarimg::after{
+    content: "";
+    background:rgba(0, 0, 0, 0.74);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1; 
+
+}
+
+.bannarcontent{
+
+    text-align: center;
+    color: white;
+}
+
+.bannarcontent h1{
+
+    font-size: 75px;
+}
+
+.bannarcontent p{
+
+    font-size: 33px;
+    padding: 20px 0px;
+    position: relative;
+    width: 404px;
+    margin: auto;
+}
+
+.bannarcontent p::before{
+    content: "";
+    width: 91px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    right: -104px;
+    top: 38px;
+}
+
+.bannarcontent p::after{
+    content: "";
+    width: 91px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: -104px;
+    top: 38px; 
+}
+
+.button{
+
+}
+
+.button a{
+
+    display: inline-block;
+    color: white;
+    background: #c69453;
+    padding: 17px 27px;
+    margin-top: 10px;
+    border-radius: 20px;
+    transition: .4s;
+    /*! z-index: 55; */
+}
+
+.button a:hover{
+    background: white;
+    color: #885e27;
+
+}
+
+
+/* profetion section */
+
+.propetion{
+
+}
+
+.profetionmain{
+    
+    background: #d0d0d042;
+    padding: 147px 50px;
+}
+
+
+
+.profetionitma{
+
+    width: 23%;
+    background: white;
+    text-align: center;
+    margin: 0px 7px 0px 18px;
+    transition: .4s;
+}
+
+.peopetionicon{
+   
+
+    padding: 35px; 
+}
+
+.peopetionicon img{
+
+    font-size: 45px;
+    /*! padding: 19px; */
+    transition: .4s;
+}
+.profetionitma h2{ 
+
+    font-size: 19px;
+    padding: 19px 0px;
+}
+.profetionitma p{
+
+    font-size: 18px;
+    padding: 0px 30px 18px 30px; 
+}
+
+.buttombottom{
+
+}
+.buttombottom a{
+
+    display: inline-block;
+    padding: 11px 16px;
+    background: #c69453;
+    color: white;
+    margin-bottom: 29px; 
+    border-radius: 9px;
+    transition: .5s;
+}
+
+.buttombottom a:hover{
+    background: black !important;
+    color: white;
+    transform: translate(0px,10px);
+}
+
+/* propeition hover */ 
+
+.profetionitma:hover .peopetionicon img{
+    background: white;
+    border-radius: 50%; 
+    transform: rotateY(360deg); 
+
+}
+
+.profetionitma:hover{
+    background: #d0d0d0;; 
+}
+
+.profetionitma:hover .buttombottom a{
+    background: white;
+    color:#c69453 ;
+}
+
+
+/* video section */
+
+.videosection{
+
+}
+
+.videosectionvar{
+
+    padding: 138px 50px;
+}
+
+.mainItam{ 
+
+}
+
+.video{
+    width: 48%;
+
+}
+
+.videoContent{
+    width: 48%;
+
+}
+
+.videoContent h1{
+
+    font-size: 35px;
+    /*! padding: 0px 0px 0px 0px; */
+}
+
+.videoContent h1 span{
+    color: #c69453;
+}
+
+.videoContent p{
+
+    font-size: 17px;
+    line-height: 21px;
+    padding: 11px 0px;
+}
+
+.buttonbarrr a{
+
+    display: inline-block;
+    color: white;
+    background: black;
+    padding: 13px 23px;
+    margin-top: 20px;
+    transition: .4s;
+    border-radius: 10px;
+}
+details {
+    padding: 10px 0px;
+  }
+
+.buttonbarrr a:hover{
+    color: white;
+    background: #c69453;
+
+}
+
+/* contact section */
+
+.contactbar{
+    
+}
+
+.contactsection{
+    background-image: url(https://i.postimg.cc/c4pGM312/ia-200000022.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px; 
+
+}
+
+.contactpadd {
+    padding: 55px 0px 0px 50px; 
+  }
+
+.contacthedding{
+
+}
+
+.contacthedding h1{
+
+    font-size: 32px;
+    padding: 10px 0px;
+}
+
+.contacthedding p{
+
+    font-size: 17px;
+    width: 549px;
+    padding: 10px 0px;
+}
+
+.contactmail{
+
+}
+
+.contactmail input{
+
+    font-size: 17px;
+    padding: 12px 10px;
+    width: 456px;
+    margin: 12px 0px;
+}
+
+.contactmail textarea {
+    padding: 12px 10px;
+    font-size: 17px;
+    width: 456px;
+    height: 105px;
+}
+
+.buttoncontact a{ 
+
+    display: inline-block;
+    color: white;
+    background: #c69453;
+    padding: 12px 19px;
+    margin-top: 19px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.buttoncontact a:hover{
+    background: black;
+
+}
+
+/* footer section */
+
+.mainfooter {
+    background: #808080;
+}
+
+.footercontant{
+
+}
+
+.footercontant p{
+
+    color: white;
+    padding: 46px 48px;
+    font-size: 18px;
+}
+
+.footericon{
+
+}
+
+.footericon ul{
+
+    padding-right: 88px;
+} 
+
+.footericon ul li{
+
+    display: inline-block;
+}
+.footericon ul li a{
+
+    display: inline-block;
+    padding: 48px 11px;
+    color: white;
+    transition: .4s;
+}
+
+.footericon ul li a:hover{
+    color: #c69453;
+
+}
