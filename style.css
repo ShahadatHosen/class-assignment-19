@@ -7,6 +7,7 @@
 .container{
     width: 1370px; 
     margin: auto;
+    position: relative; 
 }
 
 .clear::after{
@@ -43,6 +44,11 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
 
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
 }
 
 .mainhedder{
@@ -133,6 +139,7 @@ img{
     top: 100%;
     color: aliceblue;
     width: 229px;
+    z-index: 9999;
 
 
     background: white;
@@ -158,12 +165,15 @@ img{
     visibility: hidden;
     transition: .5s; 
     z-index: 9;
+    transform: scale(0);
 }
 
 .heddermenu ul li:hover ul{
     opacity: 1;
     visibility: visible;
-}
+    transform: scale(1);
+    transform-origin: center;
+} 
 
 
 
@@ -178,7 +188,7 @@ img{
     background-repeat: no-repeat;
     padding: 240px 0px;
     position: relative;
-    z-index: -2;
+    z-index: 1;
 }
 
 .bannarimg::after{
@@ -276,7 +286,7 @@ img{
     background: white;
     text-align: center;
     margin: 0px 7px 0px 18px;
-    transition: .6s;
+    transition: .4s;
 }
 
 .peopetionicon{
@@ -288,7 +298,8 @@ img{
 .peopetionicon img{
 
     font-size: 45px;
-    transition: .6s;
+    /*! padding: 19px; */
+    transition: .4s;
 }
 .profetionitma h2{ 
 
@@ -368,7 +379,7 @@ img{
 .videoContent h1{
 
     font-size: 35px;
-  
+    /*! padding: 0px 0px 0px 0px; */
 }
 
 .videoContent h1 span{
