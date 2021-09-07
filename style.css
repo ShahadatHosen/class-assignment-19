@@ -276,7 +276,7 @@ img{
     background: white;
     text-align: center;
     margin: 0px 7px 0px 18px;
-    transition: .4s;
+    transition: .6s;
 }
 
 .peopetionicon{
@@ -288,8 +288,7 @@ img{
 .peopetionicon img{
 
     font-size: 45px;
-    /*! padding: 19px; */
-    transition: .4s;
+    transition: .6s;
 }
 .profetionitma h2{ 
 
@@ -369,7 +368,7 @@ img{
 .videoContent h1{
 
     font-size: 35px;
-    /*! padding: 0px 0px 0px 0px; */
+  
 }
 
 .videoContent h1 span{
